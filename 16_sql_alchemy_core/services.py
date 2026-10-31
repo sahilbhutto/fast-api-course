@@ -123,3 +123,5 @@ def delete_post(post_id: int) -> bool:
 
         result = connection.execute(query)
         return result.rowcount > 0
+
+const
